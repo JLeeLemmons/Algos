@@ -1,4 +1,3 @@
 # Algos
-Algo Challenges - Utilizing JavaScript/TypeScript
+Algo Challenges - Utilizing JavaScript
 
-- Stage 
