@@ -2,7 +2,7 @@
 
 let leftRotate = function(arr,k){
     if(k < arr.length){
-        arr.unshift(...arr.splice(k))
+        arr.unshift(...arr.splice(k)); 
     }else{
         let i = 0; 
         while(i < k){
