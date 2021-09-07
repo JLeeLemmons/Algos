@@ -16,5 +16,5 @@ function fizzBuzz(){
     }
 }
 //nothing is returned, I am putting this into a function to stay in the habit of writing algos in function form. 
-console.log(fizzBuzz()); 
+fizzBuzz(); 
 
