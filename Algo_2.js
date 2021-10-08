@@ -9,3 +9,15 @@ function reverseString(string){
     return newString; 
 }
 console.log(reverseString('elf is my favorite Christmas character')); 
+
+
+//reverse a single string by each char. 
+
+function reverse(str) {
+    let newString = ''; 
+    for(let i = str.length-1; i >= 0; i--){
+        newString += str[i]; 
+    }
+    return newString; 
+}
+console.log(reverse('hello')); 
