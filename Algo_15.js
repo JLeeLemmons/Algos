@@ -22,4 +22,17 @@ function chunk(array, size) {
     return newArray; 
 
 }
-console.log(chunk([1, 2, 3, 4], 2)); 
+
+//Another approach using the built-in 'slice' tool, making copies of at each size and pushing subarrays within the newArray object. 
+
+function sliceChunk(array, size){
+    let newArray = []; 
+    let index = 0; 
+
+    while(index < array.length){
+        newArray.push(array.slice(index,  index + size)); 
+        index += size; 
+    }
+    return newArray; 
+}
+console.log(sliceChunk([1, 2, 3, 4], 2)); 
